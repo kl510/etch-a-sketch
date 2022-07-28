@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Etch-A-Sketch</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+</head>
+<body>
+    <header>
+        <h1>Etch-A-Sketch</h1>
+    </header>
+
+    <main>
+        <div class="eas-container">
+            <div class="eas-nav">
+                <div class="grid-size nav">
+                    <label for="grid"><h3>Grid Size</h3></label>
+                    <p>Text</p>
+                    <div>
+                        <input type="text" id="grid" name="grid" size="2">
+                        <button class="grid-btn">Reset</button>
+                    </div>
+                </div>
+
+                <div class="color-modes nav">
+                    <h3>Color Modes</h3>
+                    <input type="color" id="color-picker" name="color-picker">
+                    <button class="black-btn">Black</button>
+                    <button>Shader</button>
+                    <button>Rainbow</button>
+                </div>
+                <div class="sketch-modes nav">
+                    <h3>Sketch Modes</h3>
+                    <button>Hover</button>
+                    <button>Drag</button>
+                    <button>Click</button>
+                </div>
+                <div class="erase-modes nav">
+                    <h3>Erase Modes</h3>
+                    <button>Hover</button>
+                    <button>Drag</button>
+                    <button>Click</button>
+                    <button>Erase All</button>
+                </div>
+            </div>
+            <div class="grid-container">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
